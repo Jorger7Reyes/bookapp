@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_recommendations"
+        android:icon="@drawable/recommendations"
+        android:title="Recommendations" />
+    <item
+        android:id="@+id/page_favorites"
+        android:icon="@drawable/favorite"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/page_my_recommendations"
+        android:icon="@drawable/my_recommendations"
+        android:title="My recommendations" />
+</menu>

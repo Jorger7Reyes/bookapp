@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/page_recommendations">
+
+
+        <fragment
+            android:id="@+id/page_recommendations"
+            android:name="com.example.booksapp.Recommendations"
+            tools:layout="@layout/fragment_recommendations" />
+
+        <fragment
+            android:id="@+id/page_favorites"
+            android:name="com.example.booksapp.Favorites"
+            tools:layout="@layout/fragment_favorites" />
+
+        <fragment
+            android:id="@+id/page_my_recommendations"
+            android:name="com.example.booksapp.MyRecommendations"
+            tools:layout="@layout/fragment_my_recommendations" />
+
+
+</navigation>
